@@ -327,6 +327,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/FastMesh/Scripts/SceneViewText.cs"
 "Assets/Models/poisondartfrog/ToxicFrogs/FrogController.cs"
 "Assets/Models/poisondartfrog/ToxicFrogs/RotateCamFrog.cs"
 "Assets/ObstacleCoursePack/Controller/CameraManager.cs"
@@ -342,6 +343,7 @@
 "Assets/ObstacleCoursePack/Scripts/WallMovable.cs"
 "Assets/Script/CameraFollow.cs"
 "Assets/Script/FrogShoot.cs"
+"Assets/Script/FrogWin.cs"
 -langversion:9.0
 /deterministic
 /optimize+
