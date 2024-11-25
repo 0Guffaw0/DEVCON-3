@@ -19,9 +19,8 @@ We want to test if the “Ragdoll” frog aspect adds a comedic feel, where the 
 
 ## Design Rational
 
-For this Prototype, we want to accomplish a comedic feel to our game while trying to keep the thrill from falling off obstacles. 
-
-We want to test if the “Ragdoll” frog aspect adds a comedic feel, where the frog would just tumble around. We also want to test our prototype’s difficulty based off our mechanics and adjust it accordingly to balance the funny and fun aspect with challenge.
+Our overall vision for our game as mentioned in our game overview description will be about a Pumpkin Toadlet attempting to cross an alligator infested pond, where players would control the little frog’s leaps between obstacles. The challenge is that the little frog can’t land properly, which would add difficulty mixed with the funny tumbling frog. The players must successfully reach the “finish line” without falling into the water.
+Our game experience is informed by metrics with gravity, spring force, scale, and weight. Gravity and weight is what controls our little frog’s fall, while the weight and the strength of the spring force is used for the leap.
 
 ---
 ## Metric Resources & References
