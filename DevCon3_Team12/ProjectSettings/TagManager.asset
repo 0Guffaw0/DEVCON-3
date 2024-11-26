@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - Award
   - Frog
+  - Ground
   layers:
   - Default
   - TransparentFX
