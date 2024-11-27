@@ -26,7 +26,7 @@ Our game experience is informed by metrics with gravity, spring force, scale, an
 
 ## TumbleToad - Mood Board
 
-![TumbleToad - Mood Board](https://imgur.com/a/g7Z9QYt)
+![TumbleToad - Mood Board](https://imgur.com/a/OD620A6)
 
 ### Games included in Mood Board
 - **Game:** Angry Bird | **Reason for Including:** Drag and Pull controls
