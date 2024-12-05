@@ -77,3 +77,7 @@ Our game experience is informed by metrics with gravity, spring force, scale, an
 ## Link Dump (Resources)
 
 [Real Pumpkin Toadlet Jumping](https://www.youtube.com/watch?v=HoY1_QIS8k8)
+[Movement References](https://www.youtube.com/watch?v=xZ0pPnm3tDI)
+[Another Movement Reference](https://www.youtube.com/watch?v=99yIg-A5eCw&list=PLGXzgnKhu_mCTmg_AS66j8U7duSzcsub7)
+[Obstacle Track](https://assetstore.unity.com/packages/templates/packs/obstacle-course-pack-178169)
+[Toadlet Asset](https://assetstore.unity.com/packages/3d/characters/animals/toxic-frogs-132963)
