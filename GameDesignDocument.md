@@ -75,3 +75,5 @@ Our game experience is informed by metrics with gravity, spring force, scale, an
 ---
 
 ## Link Dump (Resources)
+
+[Real Pumpkin Toadlet Jumping](https://www.youtube.com/watch?v=HoY1_QIS8k8)
