@@ -81,3 +81,7 @@ Our game experience is informed by metrics with gravity, spring force, scale, an
 - [Another Movement Reference](https://www.youtube.com/watch?v=99yIg-A5eCw&list=PLGXzgnKhu_mCTmg_AS66j8U7duSzcsub7)
 - [Obstacle Track](https://assetstore.unity.com/packages/templates/packs/obstacle-course-pack-178169)
 - [Toadlet Asset](https://assetstore.unity.com/packages/3d/characters/animals/toxic-frogs-132963)
+
+## Game Dev. Video
+
+[Here's our commentary on our prototype!](https://youtu.be/tqP74rTFdwY)
