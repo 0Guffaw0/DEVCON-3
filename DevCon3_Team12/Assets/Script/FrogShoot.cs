@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class FrogShoot : MonoBehaviour
 {
+    //Variables to store rotation values
     float xRot, yRot = 0f;
 
     public float rotationSpeed = 5f;
@@ -33,6 +34,7 @@ public class FrogShoot : MonoBehaviour
                 yRot = -35f;
             }
 
+            //Set the rotation of the launcher
             transform.rotation = Quaternion.Euler(yRot, xRot, 0f);
             line.gameObject.SetActive(true);
             line.SetPosition(0, transform.position);
@@ -41,7 +43,7 @@ public class FrogShoot : MonoBehaviour
 
         if (Input.GetMouseButtonUp(0) && isGrounded)
         {
-            Debug.Log("Launching the frog!");
+            
             frog.velocity = transform.forward * shootPower;
             line.gameObject.SetActive(false);
         }
@@ -53,7 +55,7 @@ public class FrogShoot : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(frog.position, Vector3.down, out hit, groundCheckDistance, Ground))
         {
-            Debug.Log($"Ground detected: {hit.collider.gameObject.name}");
+            
             return true;
         }
 
