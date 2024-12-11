@@ -72,6 +72,46 @@ Our game experience is informed by metrics with gravity, spring force, scale, an
 -	Frog’s body elasticity : `0.3`. 
 -	Used for slight bounce when landing on obstacles. 
 
+#### Surface Interaction
+
+**Friction Coefficients**: 
+
+- Grass: 0.35, Moderate friction slows down rolling movement slightly. 
+
+- Wet Grass: 0.1 , Low friction makes the frog slide further especially after rain. 
+
+- Sticky Surfaces (Mud): 0.5 , High friction significantly reduces sliding. 
+
+- Hard Surfaces (Rocks): 0.2 , Moderate friction with little resistance to sliding. 
+
+- Sand: 0.4 , Slightly higher friction slows the frog, with reduced rolling momentum. 
+
+**Bounciness**
+
+Elasticity of the frog's body: 0.3
+
+Adds a slight bounce when the frog lands on obstacles or hard surfaces. 
+
+--- 
+
+#### Environmental Effects
+
+**Wind Resistance**: 
+
+- The frog experiences a drag force based on its size, shape, and speed during jumps or slides. This is calculated using the formula:
+
+- F_drag = 0.5 × ρ × v² × Cd × A 
+
+- ρ (Air Density): 1.225 kg/m³ (standard atmospheric conditions).
+
+- v (Velocity): The frog's speed.
+
+- Cd (Drag Coefficient): 1.0 Assuming a blunt shape for simplicity.
+
+- A (Cross-sectional Area): Based on the frog's scaled size in the game .
+
+- Wind resistance slightly reduces jump distance and slide speed. This effect is minor but noticeable at higher launch velocities.
+
 ---
 
 ## Link Dump (Resources)
@@ -81,6 +121,7 @@ Our game experience is informed by metrics with gravity, spring force, scale, an
 - [Another Movement Reference](https://www.youtube.com/watch?v=99yIg-A5eCw&list=PLGXzgnKhu_mCTmg_AS66j8U7duSzcsub7)
 - [Obstacle Track](https://assetstore.unity.com/packages/templates/packs/obstacle-course-pack-178169)
 - [Toadlet Asset](https://assetstore.unity.com/packages/3d/characters/animals/toxic-frogs-132963)
+- [Friction Coefficient Resource](https://www.engineeringtoolbox.com/friction-coefficients-d_778.html)
 
 ## Game Dev. Video
 
